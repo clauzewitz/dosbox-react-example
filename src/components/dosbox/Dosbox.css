@@ -1,0 +1,27 @@
+.menus {
+    display: flex;
+    justify-content: center;
+}
+
+.screen-container {
+    position: relative;
+    display: flex;
+    flex: 1;
+    margin: 10px;
+}
+
+.canvas-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.bottons {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    width: -webkit-fill-available;
+    padding: 3%;
+    justify-content: space-between;
+}
